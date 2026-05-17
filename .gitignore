@@ -1,0 +1,31 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# Downloaded UD corpora can be recreated with scripts/download_ud_data.py.
+data/
+
+# Keep outputs light: commit only final report artifacts and summary metrics.
+outputs/*
+!outputs/lab5/
+outputs/lab5/*
+!outputs/lab5/*.csv
+!outputs/lab5/*.json
+!outputs/lab5/plots/
+outputs/lab5/plots/*
+!outputs/lab5/plots/*.png
+!outputs/lab5/warmup/
+!outputs/lab5/warmup/*.csv
+!outputs/lab5_controlled/
+outputs/lab5_controlled/*
+!outputs/lab5_controlled/*.csv
+!outputs/lab5_controlled/*.json
+!outputs/lab5_controlled/plots/
+outputs/lab5_controlled/plots/*
+!outputs/lab5_controlled/plots/*.png
+
+# Local archives and generated caches.
+outputs/old_reports/
+outputs/matplotlib-cache/
+lab5_answers_draft.md

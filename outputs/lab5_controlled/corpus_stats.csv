@@ -1,0 +1,16 @@
+language,split,sentences,tokens
+fr,train,14450,344961
+fr,dev,1476,34664
+fr,test,416,9738
+es,train,14186,375031
+es,dev,1400,36461
+es,test,427,11733
+en,train,12544,201963
+en,dev,2001,24788
+en,test,2077,24740
+ar,train,6075,191871
+ar,dev,909,25987
+ar,test,680,24201
+zh,train,3997,98614
+zh,dev,500,12665
+zh,test,500,12010

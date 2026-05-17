@@ -1,0 +1,8 @@
+accelerate
+datasets
+matplotlib
+numpy
+pytest
+soxr
+torch
+transformers

@@ -1,0 +1,117 @@
+{
+  "fr": {
+    "train": {
+      "sentences": 14450,
+      "truncated": 1,
+      "truncation_rate": 6.920415224913495e-05,
+      "longest_tokenized_length": 562,
+      "max_length": 512
+    },
+    "dev": {
+      "sentences": 1476,
+      "truncated": 0,
+      "truncation_rate": 0.0,
+      "longest_tokenized_length": 147,
+      "max_length": 512
+    },
+    "test": {
+      "sentences": 416,
+      "truncated": 0,
+      "truncation_rate": 0.0,
+      "longest_tokenized_length": 122,
+      "max_length": 512
+    }
+  },
+  "es": {
+    "train": {
+      "sentences": 14186,
+      "truncated": 0,
+      "truncation_rate": 0.0,
+      "longest_tokenized_length": 204,
+      "max_length": 512
+    },
+    "dev": {
+      "sentences": 1400,
+      "truncated": 0,
+      "truncation_rate": 0.0,
+      "longest_tokenized_length": 175,
+      "max_length": 512
+    },
+    "test": {
+      "sentences": 427,
+      "truncated": 0,
+      "truncation_rate": 0.0,
+      "longest_tokenized_length": 157,
+      "max_length": 512
+    }
+  },
+  "en": {
+    "train": {
+      "sentences": 12544,
+      "truncated": 0,
+      "truncation_rate": 0.0,
+      "longest_tokenized_length": 190,
+      "max_length": 512
+    },
+    "dev": {
+      "sentences": 2001,
+      "truncated": 0,
+      "truncation_rate": 0.0,
+      "longest_tokenized_length": 98,
+      "max_length": 512
+    },
+    "test": {
+      "sentences": 2077,
+      "truncated": 0,
+      "truncation_rate": 0.0,
+      "longest_tokenized_length": 334,
+      "max_length": 512
+    }
+  },
+  "ar": {
+    "train": {
+      "sentences": 6075,
+      "truncated": 1,
+      "truncation_rate": 0.0001646090534979424,
+      "longest_tokenized_length": 654,
+      "max_length": 512
+    },
+    "dev": {
+      "sentences": 909,
+      "truncated": 0,
+      "truncation_rate": 0.0,
+      "longest_tokenized_length": 202,
+      "max_length": 512
+    },
+    "test": {
+      "sentences": 680,
+      "truncated": 0,
+      "truncation_rate": 0.0,
+      "longest_tokenized_length": 467,
+      "max_length": 512
+    }
+  },
+  "zh": {
+    "train": {
+      "sentences": 3997,
+      "truncated": 0,
+      "truncation_rate": 0.0,
+      "longest_tokenized_length": 168,
+      "max_length": 512
+    },
+    "dev": {
+      "sentences": 500,
+      "truncated": 0,
+      "truncation_rate": 0.0,
+      "longest_tokenized_length": 134,
+      "max_length": 512
+    },
+    "test": {
+      "sentences": 500,
+      "truncated": 0,
+      "truncation_rate": 0.0,
+      "longest_tokenized_length": 155,
+      "max_length": 512
+    }
+  }
+}
