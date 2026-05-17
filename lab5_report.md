@@ -304,7 +304,7 @@ pilot runs showed memory pressure on Apple MPS. All other settings are shared.
 ## Cross-Lingual Experiment Results (Q19)
 
 The full-corpus experiment can be launched with `make full`. Since that is slow
-on a laptop, I used the controlled setting:
+on my laptop, I used the controlled setting:
 
 ```bash
 make controlled
@@ -313,7 +313,7 @@ make controlled
 This caps all languages to 1000 train, 300 dev, and 300 test sentences, uses
 `max_length = 256`, and trains for 2 epochs. This is not identical to training
 on the full corpora, but it controls corpus size more directly and is more
-practical on a laptop.
+practical on my machine.
 
 The controlled matrix is saved to:
 
@@ -359,7 +359,7 @@ Arabic is the hardest target. Averaging only cross-lingual scores by test
 language gives: `fr` 0.738, `es` 0.732, `en` 0.701, `zh` 0.602, and `ar`
 0.486. French and Spanish transfer very well to each other, consistent with
 shared Romance family membership and Latin script. The Chinese row is
-asymmetric: training on Chinese transfers moderately to French, Spanish, and
+asymmetric. Training on Chinese transfers moderately to French, Spanish, and
 English, but those languages transfer less well to Chinese than to each other.
 
 ## Hyperparameter Fairness and Transfer Analysis (Q20-Q21)
@@ -373,7 +373,7 @@ only tune on development data.
 Transfer is strongest between languages that share script, family, and
 morphosyntactic properties, especially French and Spanish. Transfer is weaker
 when script, morphology, and tokenization differ, especially when Arabic is the
-target language. The Chinese row is asymmetric: training on Chinese transfers
+target language. Since that the Chinese row is asymmetric, training on Chinese could transfer
 moderately to French, Spanish, and English, but those languages transfer less
 well to Chinese than they do to each other. The matrix should therefore be
 interpreted against typological distance, script, segmentation, and corpus
